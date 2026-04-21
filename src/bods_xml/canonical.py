@@ -316,9 +316,14 @@ def serialize_ooc_statement(stmt: dict) -> etree._Element:
 # ---------------------------------------------------------------------------
 
 SERIALIZERS = {
+    # v0.3-style statementType values
     "personStatement": serialize_person_statement,
     "entityStatement": serialize_entity_statement,
     "ownershipOrControlStatement": serialize_ooc_statement,
+    # v0.4 recordType values
+    "person": serialize_person_statement,
+    "entity": serialize_entity_statement,
+    "relationship": serialize_ooc_statement,
 }
 
 

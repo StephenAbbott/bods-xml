@@ -316,11 +316,11 @@ def convert(statements: list[dict],
         if sid:
             by_id[sid] = stmt
 
-        if stmt_type == "personStatement":
+        if stmt_type in ("personStatement", "person"):
             persons.append(stmt)
-        elif stmt_type == "entityStatement":
+        elif stmt_type in ("entityStatement", "entity"):
             entities.append(stmt)
-        elif stmt_type == "ownershipOrControlStatement":
+        elif stmt_type in ("ownershipOrControlStatement", "relationship"):
             oocs.append(stmt)
 
     # Identify subject entity: the entity referenced as 'subject' in OOC statements

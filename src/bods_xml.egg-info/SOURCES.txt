@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/bods_xml/__init__.py
+src/bods_xml/canonical.py
+src/bods_xml/cli.py
+src/bods_xml.egg-info/PKG-INFO
+src/bods_xml.egg-info/SOURCES.txt
+src/bods_xml.egg-info/dependency_links.txt
+src/bods_xml.egg-info/entry_points.txt
+src/bods_xml.egg-info/requires.txt
+src/bods_xml.egg-info/top_level.txt
+src/bods_xml/profiles/__init__.py
+src/bods_xml/profiles/mras.py
+tests/test_canonical.py
+tests/test_conformance.py
+tests/test_mras_profile.py
