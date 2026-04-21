@@ -1,0 +1,149 @@
+[
+  {
+    "statementId": "entity-blazing-glazing",
+    "statementType": "entityStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "entityType": "registeredEntity",
+      "names": [{"fullName": "BLAZING GLAZING CERAMICS INC."}],
+      "foundingDate": "2021-05-11",
+      "identifiers": [
+        {"scheme": "CA-BN", "id": "678912345"},
+        {"scheme": "CA-CC", "id": "45454545"}
+      ]
+    }
+  },
+  {
+    "statementId": "entity-blazing-on-xp",
+    "statementType": "entityStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "entityType": "legalEntity",
+      "names": [{"fullName": "BLAZING GLAZING CERAMICS ON XP"}],
+      "identifiers": [
+        {"scheme": "CA-ON", "id": "98765"}
+      ],
+      "incorporatedInJurisdiction": {"code": "ON", "name": "ON"}
+    }
+  },
+  {
+    "statementId": "person-josephine-fiddlesticks",
+    "statementType": "personStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "personType": "knownPerson",
+      "names": [
+        {
+          "type": "individual",
+          "fullName": "Josephine Fiddlesticks",
+          "givenName": "Josephine",
+          "familyName": "Fiddlesticks"
+        }
+      ],
+      "nationalities": [
+        {"code": "CA", "name": "CA"},
+        {"code": "GB", "name": "GB"}
+      ],
+      "birthDate": "2001-01-01",
+      "addresses": [
+        {
+          "type": "TBD",
+          "address": "33 Whistledon Trail Richmond Hill ON",
+          "country": "CA",
+          "postCode": "H0H 0H0"
+        }
+      ]
+    }
+  },
+  {
+    "statementId": "person-reginald-fiddlesticks",
+    "statementType": "personStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "personType": "knownPerson",
+      "names": [
+        {
+          "type": "individual",
+          "fullName": "Reginald Fiddlesticks",
+          "givenName": "Reginald",
+          "familyName": "Fiddlesticks"
+        }
+      ],
+      "nationalities": [
+        {"code": "CA", "name": "CA"},
+        {"code": "GB", "name": "GB"}
+      ],
+      "taxResidencies": [
+        {"code": "CA", "name": "CA"}
+      ],
+      "birthDate": "1990-01-01",
+      "addresses": [
+        {
+          "type": "TBD",
+          "address": "33 Whistledon Trail Richmond Hill ON",
+          "country": "CA",
+          "postCode": "H0H 0H0"
+        }
+      ]
+    }
+  },
+  {
+    "statementId": "ooc-josephine-blazing",
+    "statementType": "ownershipOrControlStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "subject": {
+        "describedByEntityStatement": "entity-blazing-glazing"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "person-josephine-fiddlesticks"
+      },
+      "interests": [
+        {
+          "type": "share",
+          "directOrIndirect": "direct",
+          "beneficialOwnershipOrControl": true,
+          "details": "",
+          "share": {"exact": 25}
+        },
+        {
+          "type": "boardChair",
+          "directOrIndirect": "direct",
+          "beneficialOwnershipOrControl": true,
+          "details": "Chair of the board. Calls the shots.",
+          "startDate": "2022-01-01"
+        }
+      ]
+    }
+  },
+  {
+    "statementId": "ooc-reginald-blazing",
+    "statementType": "ownershipOrControlStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "subject": {
+        "describedByEntityStatement": "entity-blazing-glazing"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "person-reginald-fiddlesticks"
+      },
+      "interests": [
+        {
+          "type": "share",
+          "directOrIndirect": "direct",
+          "beneficialOwnershipOrControl": true,
+          "details": "",
+          "share": {"exact": 25}
+        },
+        {
+          "type": "boardMember",
+          "directOrIndirect": "direct",
+          "beneficialOwnershipOrControl": true,
+          "details": "",
+          "startDate": "2022-01-01",
+          "endDate": "2023-02-01"
+        }
+      ]
+    }
+  }
+]

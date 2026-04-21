@@ -1,0 +1,74 @@
+[
+  {
+    "statementId": "entity-12345678-canada-corp",
+    "statementType": "entityStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "entityType": "registeredEntity",
+      "names": [{"fullName": "12345678 CANADA CORP."}],
+      "foundingDate": "2021-05-11",
+      "identifiers": [
+        {"scheme": "CA-BN", "id": "987654321"},
+        {"scheme": "CA-CC", "id": "12345678"}
+      ]
+    }
+  },
+  {
+    "statementId": "person-bob-orino",
+    "statementType": "personStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "personType": "knownPerson",
+      "names": [
+        {
+          "type": "individual",
+          "fullName": "Bob Orino",
+          "givenName": "Bob",
+          "familyName": "Orino"
+        }
+      ],
+      "nationalities": [
+        {"code": "CA", "name": "CA"},
+        {"code": "CA", "name": "CA"}
+      ],
+      "birthDate": "2001-01-01",
+      "addresses": [
+        {
+          "type": "TBD",
+          "address": "33 Whistledon Trail Richmond Hill ON",
+          "country": "CA",
+          "postCode": "H0H 0H0"
+        }
+      ]
+    }
+  },
+  {
+    "statementId": "ooc-bob-orino-12345678",
+    "statementType": "ownershipOrControlStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "subject": {
+        "describedByEntityStatement": "entity-12345678-canada-corp"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "person-bob-orino"
+      },
+      "interests": [
+        {
+          "type": "share",
+          "directOrIndirect": "direct",
+          "beneficialOwnershipOrControl": true,
+          "details": "",
+          "share": {"exact": 25}
+        },
+        {
+          "type": "boardChair",
+          "directOrIndirect": "direct",
+          "beneficialOwnershipOrControl": true,
+          "details": "Chair of the board. Calls the shots.",
+          "startDate": "2022-01-01"
+        }
+      ]
+    }
+  }
+]

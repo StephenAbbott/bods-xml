@@ -1,0 +1,49 @@
+[
+  {
+    "statementId": "entity-biscuits-bergeron",
+    "statementType": "entityStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "entityType": "registeredEntity",
+      "names": [{"fullName": "Biscuits Bergeron inc."}],
+      "foundingDate": "2023-06-14",
+      "identifiers": [
+        {"scheme": "CA-QC", "id": "1177975449"}
+      ]
+    }
+  },
+  {
+    "statementId": "entity-bergeron-shell",
+    "statementType": "entityStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "entityType": "legalEntity",
+      "names": [{"fullName": "Bergeron SHELL CORP."}],
+      "identifiers": [
+        {"scheme": "CA-QC", "id": "1234"}
+      ],
+      "incorporatedInJurisdiction": {"code": "QC", "name": "QC"}
+    }
+  },
+  {
+    "statementId": "ooc-bergeron-shell-exempt",
+    "statementType": "ownershipOrControlStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "subject": {
+        "describedByEntityStatement": "entity-biscuits-bergeron"
+      },
+      "interestedParty": {
+        "describedByEntityStatement": "entity-bergeron-shell"
+      },
+      "interests": [
+        {
+          "type": "exempt",
+          "directOrIndirect": "indirect",
+          "beneficialOwnershipOrControl": true,
+          "details": ""
+        }
+      ]
+    }
+  }
+]

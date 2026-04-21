@@ -1,0 +1,71 @@
+[
+  {
+    "statementId": "entity-zazeo-events",
+    "statementType": "entityStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "entityType": "registeredEntity",
+      "names": [{"fullName": "ZAZEO EVENTS CORPORATION"}],
+      "foundingDate": "2024-03-09",
+      "identifiers": [
+        {"scheme": "CA-BC", "id": "BC0470005"}
+      ]
+    }
+  },
+  {
+    "statementId": "person-fred-pfeffington",
+    "statementType": "personStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "personType": "knownPerson",
+      "names": [
+        {
+          "type": "individual",
+          "fullName": "Fred Pfeffington",
+          "givenName": "Fred",
+          "familyName": "Pfeffington"
+        }
+      ],
+      "nationalities": [
+        {"code": "CA", "name": "CA"},
+        {"code": "BE", "name": "BE"}
+      ],
+      "taxResidencies": [
+        {"code": "CA", "name": "CA"}
+      ],
+      "birthDate": "1965-01-01",
+      "addresses": [
+        {
+          "type": "TBD",
+          "address": "12-26 Hemlock St Vancouver BC",
+          "country": "CA",
+          "postCode": "V6H 2V5"
+        }
+      ]
+    }
+  },
+  {
+    "statementId": "ooc-fred-zazeo",
+    "statementType": "ownershipOrControlStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "subject": {
+        "describedByEntityStatement": "entity-zazeo-events"
+      },
+      "interestedParty": {
+        "describedByPersonStatement": "person-fred-pfeffington"
+      },
+      "interests": [
+        {
+          "type": "share",
+          "directOrIndirect": "unknown",
+          "beneficialOwnershipOrControl": true,
+          "details": "",
+          "share": {"exact": 45},
+          "startDate": "2011-09-09",
+          "endDate": "2021-05-19"
+        }
+      ]
+    }
+  }
+]

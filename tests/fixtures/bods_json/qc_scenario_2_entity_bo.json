@@ -1,0 +1,50 @@
+[
+  {
+    "statementId": "entity-valcour",
+    "statementType": "entityStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "entityType": "registeredEntity",
+      "names": [{"fullName": "Valcour inc."}],
+      "foundingDate": "2023-06-14",
+      "identifiers": [
+        {"scheme": "CA-QC", "id": "1177975449"}
+      ]
+    }
+  },
+  {
+    "statementId": "entity-valcour-shell",
+    "statementType": "entityStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "entityType": "legalEntity",
+      "names": [{"fullName": "Valcour SHELL CORP."}],
+      "identifiers": [
+        {"scheme": "CA-QC", "id": "1234"}
+      ],
+      "incorporatedInJurisdiction": {"code": "QC", "name": "QC"}
+    }
+  },
+  {
+    "statementId": "ooc-shell-valcour",
+    "statementType": "ownershipOrControlStatement",
+    "statementDate": "2024-05-21",
+    "recordDetails": {
+      "subject": {
+        "describedByEntityStatement": "entity-valcour"
+      },
+      "interestedParty": {
+        "describedByEntityStatement": "entity-valcour-shell"
+      },
+      "interests": [
+        {
+          "type": "controlByLegalFramework",
+          "directOrIndirect": "direct",
+          "beneficialOwnershipOrControl": true,
+          "details": "",
+          "startDate": "2023-06-01"
+        }
+      ]
+    }
+  }
+]
