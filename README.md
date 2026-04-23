@@ -1,6 +1,6 @@
 # bods-xml
 
-Convert [Beneficial Ownership Data Standard (BODS)](https://standard.openownership.org/) v0.4 JSON to XML.
+Convert [Beneficial Ownership Data Standard (BODS)](https://standard.openownership.org/) v0.4 JSON to XML. Part of the [BODS Interoperability Toolkit](https://github.com/StephenAbbott/bods-interoperability-toolkit).
 
 `bods-xml` ships two output modes:
 
