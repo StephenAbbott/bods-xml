@@ -5,7 +5,7 @@ Convert [Beneficial Ownership Data Standard (BODS)](https://standard.openownersh
 `bods-xml` ships two output modes:
 
 - **Canonical** — a faithful XML serialisation of BODS 0.4 that preserves every field and mirrors the JSON structure under the namespace `https://standard.openownership.org/ns/0.4`.
-- **MRAS preBODS** — the XML format used by Canada's [Multijurisdictional Registry Access Service](https://mfrsbeta.ca/) for the BOP2P (Beneficial Ownership Policy to Practice) programme. This restructures BODS's flat statement array into a hierarchical `<preBODS>` document under the namespace `http://mras.ca/schema/preBODS`.
+- **MRAS preBODS** — the XML format used by Canada's [Multijurisdictional Registry Access Service](https://ised-isde.canada.ca/cbr-rec/en/search) for the BOP2P (Beneficial Ownership Policy to Practice) programme. This restructures BODS's flat statement array into a hierarchical `<preBODS>` document under the namespace `http://mras.ca/schema/preBODS`.
 
 New output profiles (BORIS, XBRL, etc.) can be added as modules under `bods_xml/profiles/`.
 
